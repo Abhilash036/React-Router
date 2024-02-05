@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+.van-detail-container{
+    margin-top: 20px;
+}
+
+.van-detail-container > a{
+    margin-left: 750px;
+    justify-content: center;
+}
+
+.van-detail-container > h2{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 1000px;
+    margin-top: 500px;
+}
+
+.van-type-detail {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 34px;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    color: #4D4D4D;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.van-type-detail.selected {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-left: 900px;
+    height: 25px;
+}
+
+.van-type-detail.simple.selected {
+    background-color: #E17654;
+}
+
+.van-type-detail.rugged.selected {
+    background-color: #115E59;
+}
+
+.van-type-detail.luxury.selected {
+    background-color: #161616;
+}
+
+
+.van-detail {
+    display: flex;
+    flex-direction: column;
+    color: #161616;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.van-detail > img {
+    border-radius: 5px;
+    margin-block: 47px;
+}
+
+.van-detail > h2 {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-size: 700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.van-detail > i {
+    align-self: flex-start;
+}
+
+.van-price {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.van-price > span {
+    font-size: 1.5rem;
+}
+
+.van-desc{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+.link-button {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #FF8C38;
+    color: white;
+    font-size: 1.125rem;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.vans-detail-back{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.vans-detail-back:hover{
+    text-decoration: underline;
+}
+
+.vans-detail-back > span{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
